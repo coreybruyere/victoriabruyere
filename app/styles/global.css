@@ -91,7 +91,7 @@ input:where([type="search"]) {
 
 .container {
   --gutter: 16px;
-  width: 1024px;
+  width: 1200px;
   max-width: calc(100% - var(--gutter) * 2);
   margin-right: auto;
   margin-left: auto;
@@ -177,7 +177,7 @@ input:where([type="search"]) {
   .remix__page {
     --gap: 2rem;
     grid-auto-rows: unset;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
   }
 }
 
@@ -223,3 +223,23 @@ input:where([type="search"]) {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+
+.card-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 32px;
+}
+.card-list   li {
+  box-shadow: rgb(19, 20, 19) 0px 3px 12px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-list li {
+    flex: 1;
+
+  }
+}
+
