@@ -234,6 +234,14 @@ input:where([type="search"]) {
 }
 .card-list   li {
   box-shadow: rgb(19, 20, 19) 0px 3px 12px 0px;
+  box-sizing: border-box;
+  margin: 0px 0px 1.5rem;
+  min-width: 0px;
+  padding: 1.5rem;
+  width: 100%;
+  list-style-type: none;
+  box-shadow: rgb(189, 189, 189) 0px 3px 12px 0px;
+  border-radius: 16px;
 }
 
 @media screen and (min-width: 768px) {

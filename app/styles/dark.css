@@ -5,3 +5,8 @@
   --color-links-hover: hsl(213, 100%, 80%);
   --color-border: hsl(0, 0%, 25%);
 }
+
+.card-list   li {
+  box-shadow: rgb(60, 60, 60) 0px 3px 12px 0px;
+
+}
