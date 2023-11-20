@@ -1,6 +1,7 @@
-# Welcome to Remix!
+# Victoria Bruyere Site
 
-- [Remix Docs](https://remix.run/docs)
+- Built w/ Remix. [Remix Docs](https://remix.run/docs)
+- Use netlify init flow outlined below for development
 
 ## Netlify Setup
 
